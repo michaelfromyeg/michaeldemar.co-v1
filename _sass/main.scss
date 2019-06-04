@@ -1,3 +1,57 @@
+body, html {
+  height: 100vh;
+}
+
 .current {
   color: green;
+}
+
+.center {
+	margin: 0 auto;
+	width:500px;
+	text-align: center
+}
+
+#socials {
+  background: none;
+  padding: 20px;
+  font-size: 25px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+#socials-footer {
+  background:none;
+  font-size:20px;
+  padding:10px;
+  color:black;
+  text-decoration:none;
+}
+
+.fa:hover {
+  text-decoration: none;
+  transition: 0.5s;
+  transition-timing-function: ease;
+}
+
+.fa-facebook:hover {
+  color: #3B5998;
+}
+
+.fa-instagram:hover {
+  color: #ffdc80;
+}
+
+.fa-twitter:hover {
+  color: #1DA1F2;
+}
+
+.fa-youtube:hover {
+  color: #ff0000;
+}
+
+.fa-github:hover {
+  color: #4078c0;
 }
