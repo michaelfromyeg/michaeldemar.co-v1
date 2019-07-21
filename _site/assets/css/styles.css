@@ -42,6 +42,11 @@ a.gt:hover {
   transition-timing-function: ease;
   color: #4078c0; }
 
+a.ln:hover {
+  transition: 0.5s;
+  transition-timing-function: ease;
+  color: #4875B4; }
+
 a.nav-link {
   color: white; }
 
@@ -150,3 +155,9 @@ ul.no-bullet {
 */
 div h6 {
   font-weight: bold; }
+
+h1.title {
+  margin-bottom: 25px; }
+
+div.credit {
+  padding-bottom: 50px; }
